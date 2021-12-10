@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightskyblue;
+        }
+        header {
+            background-color: lightyellow;
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: rgb(173, 192, 173);
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: rgb(174, 110, 226);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(192, 122, 122);
+        }
+        footer {
+            background-color: rgb(7, 89, 243);
+            padding: 10px;
+            margin: 50px;
+            text-align: center;
+
+        }
+        nav {
+            background-color: lightslategray;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px 5px 5px 5px;
+        }
+        nav > a {
+            text-decoration: none;
+            font-style: italic;
+            background-color: rgb(240, 233, 233);
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+           
+        }
+        footer {
+            box-shadow: 5px 30px 30px 10px rgba(0, 0, 0, 0.384);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+ <a href="#">Link</a>
+ <a href="#">Depoimentos</a>
+ <a href="#">Nossos parceiros</a>
+ <a href="#">Contato</a>
+ <a href="#">Trabalhe conosco</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos"></section>
+        <section id="Notícias">
+            <article>
+                <h2>Notícias do mundo</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ratione id consectetur impedit tenetur? Voluptatum quos ipsam, animi vitae aperiam reiciendis debitis quo non aliquam veritatis enim porro? Harum, doloribus.</p>
+                <aside>
+                    <p>Artigo escrito por João</p>
+                </aside>
+            </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Nathã com as aulas do Curso em video.</p>
+    </footer>
+</body>
+</html>
